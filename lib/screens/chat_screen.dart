@@ -1,7 +1,7 @@
-import 'package:chatgpt_course/constants/constants.dart';
-import 'package:chatgpt_course/services/api_service.dart';
-import 'package:chatgpt_course/services/services.dart';
-import 'package:chatgpt_course/widgets/chat_widget.dart';
+import 'package:chatgpt_chat_flutter/constants/constants.dart';
+import 'package:chatgpt_chat_flutter/services/api_service.dart';
+import 'package:chatgpt_chat_flutter/services/services.dart';
+import 'package:chatgpt_chat_flutter/widgets/chat_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 

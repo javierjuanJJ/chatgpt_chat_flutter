@@ -1,5 +1,5 @@
-import 'package:chatgpt_course/constants/constants.dart';
-import 'package:chatgpt_course/services/assets_manager.dart';
+import 'package:chatgpt_chat_flutter/constants/constants.dart';
+import 'package:chatgpt_chat_flutter/services/assets_manager.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
