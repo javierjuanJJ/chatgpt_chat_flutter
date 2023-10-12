@@ -1,9 +1,7 @@
 import 'dart:developer';
 
 import 'package:chatgpt_chat_flutter/constants/constants.dart';
-import 'package:chatgpt_chat_flutter/models/chat_model.dart';
 import 'package:chatgpt_chat_flutter/providers/chats_provider.dart';
-import 'package:chatgpt_chat_flutter/services/api_service.dart';
 import 'package:chatgpt_chat_flutter/services/services.dart';
 import 'package:chatgpt_chat_flutter/widgets/chat_widget.dart';
 import 'package:flutter/material.dart';
@@ -78,6 +76,8 @@ class _ChatScreenState extends State<ChatScreen> {
                           .getChatList[index].msg, // chatList[index].msg,
                       chatIndex: chatProvider.getChatList[index]
                           .chatIndex, //chatList[index].chatIndex,
+                      shouldAnimate:
+                      chatProvider.getChatList.length - 1 == index,
                     );
                   }),
             ),
